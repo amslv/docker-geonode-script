@@ -11,6 +11,7 @@ sudo docker run hello-world
 
 sudo curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-compose-Linux-x86_64 -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
+cd ..
 git clone https://github.com/GeoNode/geonode.git
 cd geonode/
 sudo docker-compose up --build
