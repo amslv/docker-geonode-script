@@ -14,5 +14,6 @@ sudo chmod +x /usr/local/bin/docker-compose
 cd ..
 git clone https://github.com/GeoNode/geonode.git
 cd geonode/
+git checkout 2.8.0
 sudo docker-compose up --build
 ifconfig -a
